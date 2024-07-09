@@ -1,0 +1,6 @@
+train: /path/to/train_dataset
+val: /path/to/val_dataset
+test: /path/to/test_dataset
+
+nc: 80  # number of classes
+names: [ 'class1', 'class2', ... ]  # class names
