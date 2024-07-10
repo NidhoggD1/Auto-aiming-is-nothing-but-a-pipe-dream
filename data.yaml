@@ -1,6 +1,6 @@
-train: /path/to/train_dataset
-val: /path/to/val_dataset
-test: /path/to/test_dataset
+train: ./datasets/datasets_from_roboflow/train
+val: ./datasets/datasets_from_roboflow/val
+test: ./datasets/datasets_from_roboflow/test
 
-nc: 80  # number of classes
-names: [ 'class1', 'class2', ... ]  # class names
+nc: 1  # number of classes
+names: [ 'enemy' ]  # class names
